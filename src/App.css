@@ -40,15 +40,28 @@
   text-align: center;
 }
 
-.nav-bar {
-  font-size: 20px;
-}
-
 .social-links {
-  justify-content: space-between;
+  justify-content: space-evenly;
   display: flex;
   width: 25%;
   margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .social-links {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+
+  .social-links-contact {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    margin: auto;
+  }
+  
 }
 
 .social-links i {
@@ -103,8 +116,4 @@
   border-radius: 7px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.chatbot {
-  float: right;
 }

@@ -49,7 +49,7 @@ function CustomChatbot(props) {
         component: (
             <div>You can connect with Akram via
                 <br/>- Phone: +91-9730563447
-                <br/>- Email: <a href = "mailto: abc@example.com">akramkazmi71@gmail.com</a>
+                <br/>- Email: <a href = "mailto: akramkazmi71@gmail.com">akramkazmi71@gmail.com</a>
                 <br/>- LinkedIn: <a href="https://www.linkedin.com/in/akramkazmi71/" target="_blank" rel="noopener noreferrer" >Akram's LinkedIn Profile</a>
             </div>
           ),
