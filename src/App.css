@@ -1,38 +1,110 @@
+.home-content {
+  background-color: black;
+  color:white;
+  opacity: 0.75;
+  border-radius: 7px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-content p {
+  font-size: 23px;
+}
+
+.home-content hr {
+  border-top: 5px dotted white;
+  margin: auto;
+  width: 65%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.home-img {
+  border-radius: 50%;
+  width: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-tag {
+  background: #000000;  
+  background: -webkit-linear-gradient(to right, #434343, #000000);  
+  background: linear-gradient(to right, #434343, #000000); 
+}
+
 .App {
+  background: #0099F7;  
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  
+  background: linear-gradient(to right, #F11712, #0099F7); 
+  background-size: cover;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar {
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-links {
+  justify-content: space-between;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 25%;
+  margin: auto;
+}
+
+.social-links i {
   color: white;
+  font-size: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.about-content {
+  background-color: black;
+  color:white;
+  opacity: 0.75;
+  border-radius: 7px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.experience-content {
+  background-color: black;
+  color:white;
+  opacity: 0.75;
+  border-radius: 7px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-content {
+  background-color: black;
+  color:white;
+  opacity: 0.75;
+  border-radius: 7px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.social-links-contact {
+  justify-content: space-between;
+  display: flex;
+  width: 15%;
+  text-align: left;
+  margin: auto;
+}
+
+.social-links-contact i {
+  color: white;
+  font-size: 60px;
+}
+
+.project-content {
+  background-color: black;
+  color:white;
+  opacity: 0.75;
+  border-radius: 7px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.chatbot {
+  float: right;
 }
