@@ -18,7 +18,7 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="MY PORTFOLIO">
+            <Drawer title="MY PORTFOLIO" className="drawer">
                 <Navigation>
                     <Link to="/">Home</Link>
                     <Link to="/aboutme">About Me</Link>
