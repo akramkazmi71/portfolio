@@ -8,7 +8,20 @@ class Landing extends Component {
                 <img className="home-img" src={window.location.origin + '/my_pic.png'} alt="Md Akram Kazmi"/>
                 <Grid className="home-content" style={{width: '80%', margin: 'auto'}}>
                     <Cell col={12}>
-                        <h2>Hi, I am Akram</h2>
+                        <h2>Hi, I am Akram
+                        <span id="wave">
+              <img
+                alt="👋"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/2/72x72/1f44b.png"
+                style={{
+                  height: "1em",
+                  width: "1em",
+                  margin: "0px 0.05em 0px 0.1em",
+                  "vertical-align": "-0.1em",
+                }}
+              />
+            </span></h2>
                         <hr />
                         <p>| Software Developer |</p>
                         <div className="social-links" >
