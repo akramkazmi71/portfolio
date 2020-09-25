@@ -39,7 +39,7 @@ function CustomChatbot(props) {
         {
             id: 'resume',
             component: (
-                <div>Here you go, you can view or download Akram's Resume from the below link.<a href="https://drive.google.com/file/d/10j-RR8-4va-yBiC2rtQejLt1dvJ1OjDV/view?usp=sharing" target="_blank" rel="noopener noreferrer"><br /><b><u>Resume</u></b></a></div>
+                <div>Here you go, you can view or download Akram's Resume from the below link.<a href="https://docs.google.com/document/d/1E5rjIU6EZllDs0fsjHNmgbvHUWdfP41fI1pjSwViaGc/edit?usp=sharing" target="_blank" rel="noopener noreferrer"><br /><b><u>Resume</u></b></a></div>
               ),
             asMessage: true,
             trigger: 'more_task',
