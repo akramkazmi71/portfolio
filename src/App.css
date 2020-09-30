@@ -1,6 +1,6 @@
 .home-content {
   background-color: black;
-  color:white;
+  color: white;
   opacity: 0.75;
   border-radius: 7px;
   text-align: center;
@@ -27,15 +27,15 @@
 }
 
 .header-tag {
-  background: #000000;  
-  background: -webkit-linear-gradient(to right, #434343, #000000);  
-  background: linear-gradient(to right, #434343, #000000); 
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
 }
 
 .App {
-  background: #0099F7;  
-  background: -webkit-linear-gradient(to right, #F11712, #0099F7);  
-  background: linear-gradient(to right, #F11712, #0099F7); 
+  background: #0099f7;
+  background: -webkit-linear-gradient(to right, #f11712, #0099f7);
+  background: linear-gradient(to right, #f11712, #0099f7);
   background-size: cover;
   text-align: center;
 }
@@ -53,7 +53,6 @@
     display: flex;
     width: 100%;
     margin: auto;
-
   }
 
   .social-links-contact {
@@ -62,11 +61,6 @@
     width: 100%;
     margin: auto;
   }
-
-  .drawer {
-    visibility: visible;
-  }
-  
 }
 
 .social-links i {
@@ -76,7 +70,7 @@
 
 .about-content {
   background-color: black;
-  color:white;
+  color: white;
   opacity: 0.75;
   border-radius: 7px;
   text-align: left;
@@ -85,7 +79,7 @@
 
 .experience-content {
   background-color: black;
-  color:white;
+  color: white;
   opacity: 0.75;
   border-radius: 7px;
   text-align: left;
@@ -94,7 +88,7 @@
 
 .contact-content {
   background-color: black;
-  color:white;
+  color: white;
   opacity: 0.75;
   border-radius: 7px;
   text-align: left;
@@ -116,13 +110,12 @@
 
 .project-content {
   background-color: black;
-  color:white;
+  color: white;
   opacity: 0.75;
   border-radius: 7px;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 #wave {
   animation-name: wave;
