@@ -1,8 +1,21 @@
 import React from "react";
+import { ThemeProvider } from 'styled-components';
 import ChatBot from "react-simple-chatbot";
+
 
 const hideInput = true;
 function CustomChatbot(props) {
+    const theme = {
+        background: '#f5',
+        fontFamily: 'Helvetica Neue',
+        headerBgColor: '#000000',
+        headerFontColor: '#fff',
+        headerFontSize: '15px',
+        botBubbleColor: '#000000',
+        botFontColor: '#fff',
+        userBubbleColor: '#fff',
+        userFontColor: '#4a4a4a',
+      };
   const config = {
     width: "350px",
     height: "400px",
@@ -11,6 +24,7 @@ function CustomChatbot(props) {
     floating: true,
     opened: true,
   };
+
 
   const steps = [
     {
@@ -156,7 +170,9 @@ function CustomChatbot(props) {
     },
   ];
 
-  return <ChatBot steps={steps} {...config} />;
+  return <ThemeProvider theme={theme}>
+            <ChatBot steps={steps} {...config} />;
+        </ThemeProvider>
 }
 
 export default CustomChatbot;
