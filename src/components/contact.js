@@ -9,7 +9,6 @@ class Contact extends Component {
                 <Grid className="contact-content" style={{width: '80%', margin: 'auto'}}>
                     <Cell col={12}>
                         <h4><u>You can contact me by</u></h4>
-                        <p><i class="fa fa-phone"></i> : +91-9730563447</p>
                         <p><i class="fa fa-envelope"></i> : <a href = "mailto: akramkazmi71@gmail.com">akramkazmi71@gmail.com</a></p>
                     </Cell>
                 </Grid>
