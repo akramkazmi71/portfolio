@@ -90,7 +90,6 @@ function CustomChatbot(props) {
       component: (
         <div>
           You can connect with Akram via
-          <br />- Phone: +91-9730563447
           <br />- Email:{" "}
           <a href="mailto: akramkazmi71@gmail.com">akramkazmi71@gmail.com</a>
           <br />- LinkedIn:{" "}
